@@ -1,9 +1,13 @@
 remote_theme: "mmistakes/minimal-mistakes@4.15.2"
 minimal_mistakes_skin: "dark"
+title: "::1 | Stories of future /dev/null"
 
 plugins:
   - jekyll-include-cache
-  
+ 
+ 
+# Relevan helpt --> https://mmistakes.github.io/minimal-mistakes/docs/configuration/# 
+
 # Ook leuk:
 
 # http://mattvh.github.io/solar-theme-jekyll/
