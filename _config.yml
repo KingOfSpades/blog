@@ -17,6 +17,12 @@ plugins:
       comments: true
       share: true
       related: true
+
+author:
+  name: "Christian A. Benstein"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: "Azure engeneer @ Intercept"
+  location: "NL"
  
 # Relevante helpt --> https://mmistakes.github.io/minimal-mistakes/docs/configuration/# 
 
