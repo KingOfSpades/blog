@@ -5,8 +5,20 @@ title: "::1 | Stories of future /dev/null"
 plugins:
   - jekyll-include-cache
  
+ defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
  
-# Relevan helpt --> https://mmistakes.github.io/minimal-mistakes/docs/configuration/# 
+# Relevante helpt --> https://mmistakes.github.io/minimal-mistakes/docs/configuration/# 
 
 # Ook leuk:
 
