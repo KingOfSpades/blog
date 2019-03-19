@@ -9,7 +9,15 @@ author:
   name     : "Christian A. Benstein"
   avatar   : "/assets/images/bio-photo.jpg"
   bio      : "Azure Engineer @ Intercept"
-  location : "localhost, NL" 
+  location : "localhost, NL"
+  
+main:
+  - title: "Home"
+    url: /
+  - title: "Posts"
+    url: /posts/
+  - title: "About"
+    url: /about/
  
 # Relevante helpt --> https://mmistakes.github.io/minimal-mistakes/docs/configuration/# 
 
