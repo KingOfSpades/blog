@@ -4,6 +4,15 @@ title: "::1 | Stories of future /dev/null"
 
 plugins:
   - jekyll-include-cache
+  
+defaults:
+# _pages
+- scope:
+    path: ""
+    type: pages
+  values:
+    layout: single
+    author_profile: true
  
  defaults:
   # _posts
