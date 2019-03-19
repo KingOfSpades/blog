@@ -4,6 +4,12 @@ title: "::1 | Stories of future /dev/null"
 
 plugins:
   - jekyll-include-cache
+  
+author:
+  name     : "Christian A. Benstein"
+  avatar   : "/assets/images/bio-photo.jpg"
+  bio      : "Azure Engineer @ Intercept"
+  location : "localhost, NL" 
  
 # Relevante helpt --> https://mmistakes.github.io/minimal-mistakes/docs/configuration/# 
 
