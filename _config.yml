@@ -1,37 +1,9 @@
-remote_theme: "mmistakes/minimal-mistakes"
+remote_theme: "mmistakes/minimal-mistakes@"
 minimal_mistakes_skin: "dark"
 title: "::1 | Stories of future /dev/null"
 
 plugins:
   - jekyll-include-cache
-  
-defaults:
-# _pages
-- scope:
-    path: ""
-    type: pages
-  values:
-    layout: single
-    author_profile: true
- 
- defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-
-author:
-  name: "Christian A. Benstein"
-  avatar: "/assets/images/bio-photo.jpg"
-  bio: "Azure Engineer @ Intercept"
-  location: "NL"
  
 # Relevante helpt --> https://mmistakes.github.io/minimal-mistakes/docs/configuration/# 
 
