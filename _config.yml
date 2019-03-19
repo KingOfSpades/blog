@@ -1,4 +1,4 @@
-remote_theme: "mmistakes/minimal-mistakes@4.15.2"
+remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "dark"
 title: "::1 | Stories of future /dev/null"
 
