@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: single 
 title:  "Bye bye Caps Lock - Re-mapping Caps to CTRL"
 catergories:
     - Windows
@@ -7,9 +7,7 @@ tags:
     - Handy
 ---
 
-# Good bye CAPS LOCK
-
-HOW OFTEN DO YOU USE CAPS LOCK. Not a lot right. So let's re-map that key. In my setup I like to use the Caps Lock as 2nd CTRL key. This way I don't have to fold up my pinky to use that ow so important CTRL+C / CTRL+V.
+HOW OFTEN DO YOU USE CAPS LOCK? Not a lot right. So let's re-map that key. In my setup I like to use the Caps Lock as 2nd CTRL key. This way I don't have to fold up my pinky to use that ow so important CTRL+C & CTRL+V.
 
 That being said and done. Let's get going. Changing the mapping requires you to edit some REG's. Using the following lines this will be done automatically:
 
