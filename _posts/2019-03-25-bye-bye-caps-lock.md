@@ -1,4 +1,5 @@
 ---
+layout: posts
 title:  "Bye bye Caps Lock - Re-mapping Caps to CTRL"
 catergories:
     - Windows
