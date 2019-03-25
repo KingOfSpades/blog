@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title:  "Bye bye Caps Lock - Re-mapping Caps to CTRL"
 ---
 
