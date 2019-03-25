@@ -17,6 +17,6 @@ $kbLayout = 'HKLM:\System\CurrentControlSet\Control\Keyboard Layout';
 New-ItemProperty -Path $kbLayout -Name "Scancode Map" -PropertyType Binary -Value ([byte[]]$hexified);
 ```
 
-After that a quick reboot loads up the new ddefaults.
+After that a quick reboot loads up the new defaults.
 
 And hey, if you still need some text in ALL CAPS. Use [Shoutcloud](http://shoutcloud.io/).

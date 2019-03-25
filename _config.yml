@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "Stories of /dev/null"
 title_separator          : "|"
 name                     : "Christian A. Benstein"
-description              : "Miniblog"
+description              : "Miniblog van Christian"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -107,7 +107,7 @@ analytics:
 # Site Author
 author:
   name             : "Christian A. Benstein"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio-photo.jpg"
   bio              : "Azure Engineer @ Intercept"
   location         : "localhost, NL"
   email            :
