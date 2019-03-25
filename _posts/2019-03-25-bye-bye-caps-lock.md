@@ -1,6 +1,9 @@
 ---
-layout: post
 title:  "Bye bye Caps Lock - Re-mapping Caps to CTRL"
+catergories:
+    - Windows
+tags:
+    - Handy
 ---
 
 # Good bye CAPS LOCK
