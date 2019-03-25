@@ -197,6 +197,12 @@ highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
+span:
+  line_numbers: false
+block:
+  line_numbers: true
+  start_line: 1
+  
 
 
 # Markdown Processing
