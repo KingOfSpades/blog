@@ -2,5 +2,5 @@
 main:
   - title: "Home"
     url: /
-  - title: "About"
+  # - title: "About"
   #  url: /about/
