@@ -1,5 +1,6 @@
 ---
-layout: posts
+layout: single
+classes: wide
 title:  "Bye bye Caps Lock - Re-mapping Caps to CTRL"
 author_profile: true
 catergories:
