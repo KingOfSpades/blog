@@ -198,7 +198,7 @@ lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 span:
-  line_numbers: false
+  line_numbers: true
 block:
   line_numbers: true
   start_line: 1
