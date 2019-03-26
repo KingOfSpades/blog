@@ -1,5 +1,5 @@
 ---
-layout: archive 
+layout: posts
 title:  "Bye bye Caps Lock - Re-mapping Caps to CTRL"
 author_profile: true
 catergories:
@@ -12,7 +12,7 @@ HOW OFTEN DO YOU USE CAPS LOCK? Not a lot right. So let's re-map that key. In my
 
 That being said and done. Let's get going. Changing the mapping requires you to edit some REG's. Using the following lines this will be done automatically:
 
-~~~~powershell
+~~~~ powershell
 $hexified = "00,00,00,00,00,00,00,00,02,00,00,00,1d,00,3a,00,00,00,00,00".Split(',') | % { "0x$_"};
 
 $kbLayout = 'HKLM:\System\CurrentControlSet\Control\Keyboard Layout';
