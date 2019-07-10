@@ -4,7 +4,7 @@ classes: wide
 title: "Fixing broken YUM REPO's on CentOS"
 author_profile: true
 catergories:
-	- CentOS 
+  - CentOS 
   - Linux
   - YUM 
 tags:
