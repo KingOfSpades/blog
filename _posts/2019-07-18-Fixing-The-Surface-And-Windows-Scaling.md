@@ -17,9 +17,9 @@ So, the biggest problem comes when you're using screens that are scaled differen
 Here is a small guide for the later
 1. Install CRU tool to add a custom resloution to your Surface display (link)[https://www.monitortests.com/forum/Thread-Custom-Resolution-Utility-CRU]
 2. Add said resolution, in my case it is `1440x960`
-[CRU]: /assets/images/CRU-Settings.png
+[CRU]: https://blog.benstein.nl/assets/images/CRU-Settings.png
 3. REBOOT
 4. Select the custom resolution and set scaling to 100%
-[SETTINGS]: /assets/images/Display-Settings.png
+[SETTINGS]: https://blog.benstein.nl/assets/images/Display-Settings.png
 
 Small side note, Windows will somethimes 'resset' your resoloution when connection to new displays.
