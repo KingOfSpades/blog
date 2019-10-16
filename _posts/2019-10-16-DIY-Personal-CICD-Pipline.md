@@ -20,7 +20,7 @@ Using Docker, Azure DevOps and Azure Container Instances we are going to setup a
 
 This looks a little like this:
 
-![Overview](https://blog.benstein.nl/assets/images/Untitled-c9a82643-2703-44e7-a396-24a276d8ee8e.png)
+![Overview](https://blog.benstein.nl/assets/images/3d-DrawingPipeline.png)
 
 ## Ingredients
 
