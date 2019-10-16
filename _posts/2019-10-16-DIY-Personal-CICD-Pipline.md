@@ -12,8 +12,6 @@ tags:
     - Git
 ---
 
-# DIY Personal CI/CD Pipline
-
 Created By: Christian Alexander Benstein
 Last Edited: Oct 16, 2019 11:29 PM
 Tags: Draft
