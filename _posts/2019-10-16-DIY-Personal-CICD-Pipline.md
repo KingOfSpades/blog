@@ -20,21 +20,20 @@ This looks a little like this:
 
 ## Ingredients
 
-Some pre requirements. This guide assumes you are using Azure DevOps and DevOps GiT. You also need to link your DevOps environment to your Azure Subscription. Details for DevOps and DevOps GiT are here:[https://docs.microsoft.com/en-us/azure/devops/user-guide/sign-up-invite-teammates?view=azure-devops](https://docs.microsoft.com/en-us/azure/devops/user-guide/sign-up-invite-teammates?view=azure-devops) 
+Some pre requirements. This guide assumes you are using Azure DevOps and DevOps GiT. You also need to link your DevOps environment to your Azure Subscription. Details for DevOps and DevOps GiT are here:[DevOps Setup](https://docs.microsoft.com/en-us/azure/devops/user-guide/sign-up-invite-teammates?view=azure-devops) 
 
 And more on adding Azure to your DevOps environment is here: 
 
-So before we get started, check if you have the following:
+So before we get started, check if you have the following: [Add Azure to DevOps Pipeline](https://docs.microsoft.com/en-us/azure/devops/pipelines/library/connect-to-azure?view=azure-devops)
 
 - Active Azure environment;
 - Azure DevOps;
 - Azure DevOps Service set up to connect to your Azure environment;
-- Az CLI installed on you system (see: [https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest)) . You can also use the Azure Web CLI from your Azure Portal.
+- Az CLI installed on you system (see: [Installing Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest)) . You can also use the Azure Web CLI from your Azure Portal.
 
-Some notes, I'm using `<Placeholder>` to indicate places where you need to provide code. I'm also using Azure CLI in BASH so I'll be using `\` to do linebreaks. Replace them with backticks ( ` ) if you're using PowerShell.
+Some notes, I'm using `<Placeholder>` to indicate places where you need to provide code. I'm also using Azure CLI in BASH so I'll be using `\` to do linebreaks. Replace them with backticks ``` ` ``` if you're using PowerShell.
 
 ## Setting up Azure
-
 In your Azure environment we are going to setup a Private Azure Container Registry and a Resource Group to deploy your Container instance, get started by login in:
 ```bash
     az login
@@ -64,7 +63,6 @@ Now (from the Azure Portal) go to `Dashboard > Container registries > PrivateRep
 ![Azure Portal](https://blog.benstein.nl/assets/images/Untitled-37464db4-5794-4f9f-93b6-798822be18f1.png)
 
 Note down the following:
-
 - Login server
 - Username
 - Password
@@ -74,7 +72,6 @@ You'll need this in your Build pipeline.
 Now we're done on the Azure side. Time to switch over to Azure DevOps
 
 ## Setting up DevOps Pipeline
-
 In Azure DevOps navigate to your project and go to `Pipelines > Builds`. We are going to setup a pipeline that is triggered by a commit to the Master Branch. Select `New` and then `New Build Pipeline` . 
 
 Select your source (in this case I'm using Azure Repos)
@@ -145,7 +142,7 @@ After this you are presented with the basic pipeline YAML. Replace the YAML with
     			--tags CiCDTutorial 
 ```
 
-In this case I'm deploying a Docker image and giving it `0.5 CPU` , `1 GB RAM`, Parsing in some ENV variables and exposing `port 3030`. You can customize this to your liking.
+In this case I'm deploying a Docker image and giving it `0.5 CPU` , `1 GB RAM`, Parsing in some ENV variables and exposing `port 3030`. You can customize this to your liking. You can find more details on creating Azure Container Instances on the [Docs page](https://docs.microsoft.com/en-us/cli/azure/container?view=azure-cli-latest#az-container-create)
 
 This pipline will do the following steps:
 
