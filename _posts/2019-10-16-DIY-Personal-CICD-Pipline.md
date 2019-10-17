@@ -139,7 +139,7 @@ After this you are presented with the basic pipeline YAML. Replace the YAML with
           --restart-policy always \
           --dns-name-label YourDNSLabel \
           --restart-policy always \
-    			--tags CiCDTutorial 
+    	  --tags CiCDTutorial 
 ```
 
 In this case I'm deploying a Docker image and giving it `0.5 CPU` , `1 GB RAM`, Parsing in some ENV variables and exposing `port 3030`. You can customize this to your liking. You can find more details on creating Azure Container Instances on the [Docs page](https://docs.microsoft.com/en-us/cli/azure/container?view=azure-cli-latest#az-container-create)
