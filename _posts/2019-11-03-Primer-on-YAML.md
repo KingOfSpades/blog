@@ -1,14 +1,14 @@
 ---
 layout: single
 classes: wide
-title: "Prime on YAML"
+title: "Primer on YAML"
 author_profile: true
 catergories:
   - YAML
   - Primer
 tags:
-    - Handy
-    - Howto
+  - Handy
+  - Howto
 ---
 
 It's always good to write down the basics, rehearse the syntax and go trough the motions. So let's do that with YAML.
@@ -19,7 +19,7 @@ YAML is a data serialisation language. It's used to store and display informatio
 - `values`
 - `objects`
 
-YAML files are identfied by the extenion `.yml` and `.yaml` . You can use `#` for comments and you want to start of with a `---` on top. 
+YAML files are identfied by the extenion `.yml` and `.yaml` . You can use `#` for comments and you want to start of with a `---` on top. YAML is used by a lot of software like Ansible.
 
 # Creating object's in YAML
 
