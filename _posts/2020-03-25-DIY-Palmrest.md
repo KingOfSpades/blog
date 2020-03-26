@@ -1,7 +1,7 @@
 ---
 layout: single
 classes: wide
-title: Simple DIY Wood Palmwrest
+title: Simple DIY Wood Palmrest
 author_profile: true
 catergories:
   - DIY
