@@ -13,10 +13,10 @@ tags:
 
 Based om: https://medium.com/@vveleva/diy-free-ish-wooden-keyboard-wrist-rest-8b902a7f6d26
 
-With the Corona crisis in full swing (wich forces us all to work from home) I decided I needed a palm rest for my 60% AnnePro2. Not being willing to shell out 20-40 dollars on a plastic one that would ship next week I deciede to take to the internet and some gold old handy work. Being inspired by https://medium.com/@vveleva/diy-free-ish-wooden-keyboard-wrist-rest-8b902a7f6d26 I decided to give it a try.
+With the Corona crisis in full swing (wich forces us all to work from home) I decided I needed a palm rest for my 60% AnnePro2. Not being willing to shell out 20-40 dollars on a plastic one that would ship next week I decided to take to the internet and some good old handy work. Being inspired by https://medium.com/@vveleva/diy-free-ish-wooden-keyboard-wrist-rest-8b902a7f6d26 I decided to give it a try.
 
 # Materials
-After doings some basic measurements I went to to hardwarstore to find some scrap woud (the somethimes offer these at local hardwarestores). I found a piece that fit almost perfactly and after taking a bit off I was happy
+After doings some basic measurements I went to to hardware store to find some scrap woud (they somethimes offer these at local hardware store). I found a piece that fit almost perfectly and after taking a bit off I was happy
 
 ![Size](../assets/images/palm1.jpeg)
 
