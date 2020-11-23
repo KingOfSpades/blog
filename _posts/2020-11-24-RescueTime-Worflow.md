@@ -21,13 +21,7 @@ The workflow is quite simple. I set a TimeTime to the time I want to focus. I us
 ![Focus Starter Example](../assets/images/focusStarter.gif)
 
 This kicks of the following events
-```mermaid
-sequenceDiagram
-    Alfred->>+RescueTime: Creates Focus Session
-    RescueTime-->>+Slack: Sets Slack to DND
-    RescueTime-->>+IFTTT: Triggers IFTTT
-    IFTTT-->>-Calendar: Creates Calendar Event
-```
+![Focus Time Workflow](../assets/images/FocusFlow.png)
 
 I use a IFTTT workflow to trigger a calendar event creation for in the weekly review and I use a TimeTimer as a visual aid.
 
