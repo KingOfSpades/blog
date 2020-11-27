@@ -40,16 +40,15 @@ qlmanage -p $query
 
 Setting up the workflow in Alfred will look like this:
 
-1. The Workflow in Alfred
-
+1. The Workflow in Alfred\
 ![Alfred Workflow](../assets/images/20201127162256.png)
 
-2. Settings for the File Filter, drag the folder you want to look in into the option `scope`
+2. Settings for the File Filter, drag the folder you want to look in into the option `scope`\
 ![File Filter](../assets/images/20201127162314.png)
 
-3. Settings for the Run Script
+3. Settings for the Run Script\
 ![Run Script Settings](../assets/images/20201127162335.png)
 
 # Putting it all together
-Once this is all set-up you can easily create simple markdown cheat sheets and call the using Alfred
+Once this is all set-up you can easily create simple markdown cheat sheets and call them using Alfred\
 ![](../assets/images/CheatExample.gif)
