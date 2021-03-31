@@ -10,7 +10,6 @@ tags:
   - Things3
   - Fantastical
 ---
-# Using AppleScript to quick add Things3 to Fantastical3
 Calendar blocking (the process of marking of pieces of time in your calendar to work on a given task) can be a real productivity booster. Not only does it help you in planning out your day it also creates a visible representation of what you have done in a week.
 
 Because I already keep track of the things I want to do in the amazing task app [Things3](https://culturedcode.com/things/) I added a simple workflow to copy over selected todo's to my calendar app of choice [Fantastical](https://flexibits.com/fantastical). This keeps the content of my todo's consistent and removes a lot of friction with daily and weekly planning.
