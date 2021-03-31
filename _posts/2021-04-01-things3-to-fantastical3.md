@@ -31,9 +31,9 @@ In the directory `~/Library/Containers/com.culturedcode.ThingsMac/Data/Library/A
 More information about adding scripts can be found on the [official support page](https://culturedcode.com/things/support/articles/2803572/)
 
 # Running the script
-The script can be accessed from the things3 menu:
-![[../assets/images/Pasted image 20210401000951.png]]
-![[../assets/images/Pasted image 20210401001002.png]]
+The script can be accessed from the things3 menu: \
+![Menu Bar item](../assets/images/20210401000951.png) \
+![Menu Bat item - context](../assets/images/20210401001002.png)
 
 > ❗ When you run these script's for the first time macOS will ask you for permissions
 
