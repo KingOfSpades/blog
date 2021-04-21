@@ -1,7 +1,7 @@
 ---
 layout: single
 classes: wide
-title: Using AppleScript to quick add Things3 to Fantastical3
+title: How to customize the appearance of tags in Obsidian
 author_profile: true
 catergories:
   - Obsidian
