@@ -17,14 +17,18 @@ Because I already keep track of the things I want to do in the amazing task app 
 # Adding custom scripts to Things3
 Things has a great option to add custom script to the menu bar of the application. This is done by:
 1. Quitting Things
-2. Creating the directory `~/Library/Containers/com.culturedcode.ThingsMac/Data/Library/Application Suppor` using the Terminal:
+2. Creating the directory `~/Library/Application Support/Cultured Code/Things Scripts` using the Terminal:
     ```bash
-    $ mkdir -p '~/Library/Containers/com.culturedcode.ThingsMac/Data/Library/Application Support/Things Scripts'
+    $ mkdir ~/Library/Containers/com.culturedcode.ThingsMac/Data/Library/Application\ Support/Cultured\ Code/Things\ Scripts
+    ```
+4. Change to the dir using:
+    ```bash
+    $ cd ~/Library/Containers/com.culturedcode.ThingsMac/Data/Library/Application\ Support/Cultured\ Code/Things\ Scripts  
     ```
 3. Now you can add custom scripts to this directory
 
 # Creating the script
-In the directory `~/Library/Containers/com.culturedcode.ThingsMac/Data/Library/Application Suppor` create the script `addToFantastical.scpt`:
+In the directory `~/Library/Containers/com.culturedcode.ThingsMac/Data/Library/Application Support` create the script `addToFantastical.scpt`:
 <script src="https://gist.github.com/KingOfSpades/ecd859929accf55ace562657551ae69a.js"></script>
 
 More information about adding scripts can be found on the [official support page](https://culturedcode.com/things/support/articles/2803572/)
