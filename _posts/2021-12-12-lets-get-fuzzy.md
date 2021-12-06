@@ -2,13 +2,16 @@
 layout: single
 classes: wide
 title:  "lets-get-fuzzy"
-author_profile: true
+author_profile: false
 catergories:
     - Shell
     - Linux
     - macOS
 tags:
     - Blog
+    - Shell
+    - Linux
+    - macOS
 ---
 
 [Fuzzy search](https://en.wikipedia.org/wiki/Approximate_string_matching) is a great and easy way to find (back) stuff. You can use `fzf` on macOS and Linux to replace bash/zsh `bck-i-search`, make `find` obsolete and even get a quick way to preview files on the command line.
