@@ -1,7 +1,7 @@
 ---
 layout: single
 classes: wide
-title:  "2021-09-12-lets-get-fuzzy"
+title:  "lets-get-fuzzy"
 author_profile: true
 catergories:
     - Shell
